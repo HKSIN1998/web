@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head> <!--8 tags used in head section:-title,style,script,noscript,(link,meta)self closing tags,base,command--> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #outer     /*# is used for id*/ 
+        {
+            width:1000px;
+            height: 1200px;
+            /* border: 1px solid white; */
+            margin: 0px auto;
+            border-radius: 20px;
+        }
+        #menu
+        {
+            width: 1000px;
+            height: 50px;
+            background: white;
+            border-radius: 20px 20px 0px 0px;
+        }
+        #slider
+        {
+            width:1000px;
+            height:250px;
+            background: gray;
+            margin-top: 5px;
+        }
+        #parent
+        {
+            margin-top: 5px;
+            height:600px;
+        }
+        #left{
+            width:300px;
+            height: 600px;
+            background: lightgray;
+            float:left;
+            border-radius: 0 0 0 20px;
+        }
+        #right
+        {
+            width:700px;
+            height: 600px;
+            background:rgb(255, 255, 255);
+            float:right;
+            border-radius: 0 0 20px 0;
+        }
+        #footer
+        {
+        
+            height: 270px;
+            width:1000px;
+            background:white;
+            margin-top: 20px;
+            border-radius: 20px
+        }
+    </style>
+</head>
+<body bgcolor="lime">
+    <div id="outer">
+        <div id="menu">
+
+        </div>
+        <div id="slider">
+
+        </div>
+        <div id="parent">
+            <div id="left"></div>
+            <div id="right"></div>
+        </div>
+        <div id="footer">
+
+        </div>
+    </div>
+</body>
+</html>
